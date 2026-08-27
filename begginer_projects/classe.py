@@ -118,7 +118,7 @@ class Battery:
         if charge < self.battery_size:
             print("You can't decrease the battery size.")
         else:
-            self.battery_size = chargeA
+            self.battery_size = charge
             
 class ElectricCar(Car):
         """
